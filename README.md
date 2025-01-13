@@ -1,7 +1,5 @@
 # GPU specs
 
-## Таблица видеокарт
-
 ### Nvidia
 
 | Модель<br/>видеокарты<br/>(GPU) | Тип<br/>видеокарты   | Архитектура  | Объём<br/>памяти<br/>(VRAM, Mb) | Пропускная<br/>способность<br/>памяти (GB / s) | CUDA  | Поддерживаемые<br/>квантизации | FP32<br/>TFLOPS | BF16<br/>TFLOPS | FP16<br/>TFLOPS | TF32<br/>Tensor Core<br/>TFLOPS | BF16<br/>Tensor Core<br/>TFLOPS | FP16<br/>Tensor Core<br/>TFLOPS | FP8<br/>Tensor Core<br/>TFLOPS | INT8<br/>Tensor Core<br/>TFLOPS | FP4<br/>Tensor Core<br/>TFLOPS | INT4<br/>Tensor Core<br/>TFLOPS |
