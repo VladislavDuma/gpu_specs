@@ -15,13 +15,12 @@
    Ampere GPUs are supported for W8A16 (weight-only FP8) utilizing Marlin kernels. Quantization of models with FP8
    allows for a 2x reduction in model memory requirements and up to a 1.6x improvement in throughput with minimal impact
    on accuracy.
-3. \*** Preliminary characteristics calculated based on data from the Internet
 
 ### Blackwell
 
 | Graphics Processor<br/>GPU | Price, $ | GPU type             | TDP, W | VRAM, Mb | Bandwidth<br/>GB/s | CUDA  | Supported<br/>quantizations | FP32<br/>TFLOPS | BF16<br/>TFLOPS | FP16<br/>TFLOPS | TF32<br/>Tensor Core<br/>TFLOPS | BF16<br/>Tensor Core<br/>TFLOPS | FP16<br/>Tensor Core<br/>TFLOPS | FP8<br/>Tensor Core<br/>TFLOPS | INT8<br/>Tensor Core<br/>TFLOPS | FP4<br/>Tensor Core<br/>TFLOPS | INT4<br/>Tensor Core<br/>TFLOPS |
 |----------------------------|----------|----------------------|--------|----------|--------------------|-------|-----------------------------|-----------------|-----------------|-----------------|---------------------------------|---------------------------------|---------------------------------|--------------------------------|---------------------------------|--------------------------------|---------------------------------|
-| NVIDIA RTX 5090***         | 2000     | Desktop, Workstation | 575    | 32752*** | 1792               | 21760 | GPTQ, AWQ, GGUF, FP8, FP4   | 104.8           | 104.8           | 104.8           | 210 / 419*                      | 419 / 838*                      | 419 / 838*                      | 838 / 1676*                    | 838 / 1676*                     | 1676 / 3352*                   | 1676 / 3352*                    |
+| NVIDIA RTX 5090         | 2000     | Desktop, Workstation | 575    | 32607 | 1792               | 21760 | GPTQ, AWQ, GGUF, FP8, FP4   | 104.8           | 104.8           | 104.8           | 210 / 419*                      | 419 / 838*                      | 419 / 838*                      | 838 / 1676*                    | 838 / 1676*                     | 1676 / 3352*                   | 1676 / 3352*                    |
 
 ### Hopper
 
